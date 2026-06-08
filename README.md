@@ -4,7 +4,7 @@
 - **The real deal:** **O.MG Cable** (commercial, has Wi-Fi for live remote control) or a **Raspberry Pi Pico / Pico W** running keyboard firmware. The Pico W gives you actual wireless live control, which is what you're asking for.
 
 ## Why HID works
-The target PC trusts keyboards implicitly — no driver prompt, no permission. The cable just "types" faster than a human. So your job is to script keystrokes that open a shell and pull down your payload.
+The target PC trusts keyboards implicitly, no driver prompt, no permission. The cable just "types" faster than a human so your job is to script keystrokes that open a shell and pull down your payload.
 
 ## Pico W approach (live remote control)
 1. Flash **CircuitPython** onto the Pico W.
